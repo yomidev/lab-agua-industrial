@@ -1,11 +1,21 @@
-<script setup></script>
+<script setup>
+import AppHeader from "@/components/layout/AppHeader.vue";
+import HeroSection from "@/components/hero/HeroSection.vue";
+import AboutSection from "@/components/about/AboutSection.vue";
+import QualitySection from "@/components/quality/QualitySection.vue";
+import MissionVisionSection from "@/components/mission/MissionVisionSection.vue";
+import AccreditationSection from "@/components/accreditation/AccreditationSection.vue";
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <AppHeader />
+  <main id="contenido">
+    <HeroSection />
+    <AboutSection />
+    <QualitySection />
+    <MissionVisionSection />
+    <AccreditationSection />
+  </main>
 </template>
 
 <style scoped></style>

@@ -1,1 +1,33 @@
 @import "tailwindcss";
+
+@theme {
+  --font-display: "Sora", "Segoe UI", system-ui, sans-serif;
+  --font-sans: "Manrope", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-ink: #07182a; /* fondos oscuros, títulos */
+  --color-deep: #0b2540; /* tarjetas oscuras */
+  --color-aqua: #4cc9f0; /* acento principal */
+  --color-aqua-soft: #7dd8f5; /* tarjeta de visión */
+  --color-cobalt: #0b6fa8; /* etiquetas y métodos sobre fondo claro */
+  --color-page: #f3f8fc; /* fondo de la página */
+  --color-line: #dce8f2; /* separadores */
+  --color-body: #24415a; /* texto de párrafo */
+  --color-muted: #4a6479; /* texto secundario */
+}
+
+@utility glass {
+  background: rgb(255 255 255 / 0.09);
+  border: 1px solid rgb(255 255 255 / 0.18);
+  backdrop-filter: blur(14px);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+section[id] {
+  scroll-margin-top: 90px;
+}
+body {
+  @apply bg-page text-ink font-sans antialiased;
+}

@@ -72,6 +72,22 @@ export default {
     visionText:
       "Ser un laboratorio líder a nivel regional y nacional, reconocido por nuestra innovación, soluciones y servicios en materia de agua, así como por la calidad humana, técnica y profesional de nuestro personal y nuestra contribución a la comunidad.",
   },
+  accreditation: {
+    label: "Acreditación EMA",
+    title: "Laboratorio de ensayo acreditado",
+    description:
+      "El laboratorio de Investigación-Análisis de Aguas Industriales del Instituto Tecnológico de Aguascalientes se encuentra acreditado como laboratorio de ensayo en la rama de agua, ante la Entidad Mexicana de Acreditación, A.C.",
+    accreditationNo: "Acreditación No.",
+    scopeLabel: "Con el siguiente alcance:",
+    scopePlaceholder: "[DESCRIPCIÓN DEL ALCANCE]",
+    footnote:
+      "Los parámetros marcados con asterisco (*) en la sección de servicios se ofrecen sin acreditación.",
+    labTest: "LABORATORIO DE ENSAYO",
+    accredited: "ACREDITADO {code}",
+    qrLabel: "[CÓDIGO QR ALCANCE EMA]",
+    qrHelp:
+      "Escanee el código para consultar nuestro alcance en la página de la EMA.",
+  },
   services: {
     paramCount: "{count} parámetros",
     // ...

@@ -71,6 +71,21 @@ export default {
     visionText:
       "To be a leading laboratory at a regional and national level, recognized for our innovation, solutions and water services, as well as for the human, technical and professional quality of our personnel and our contribution to the community.",
   },
+  accreditation: {
+    label: "EMA Accreditation",
+    title: "Accredited testing laboratory",
+    description:
+      "The Industrial Water Research and Analysis laboratory of the Aguascalientes Institute of Technology is accredited as a testing laboratory in the water branch by the Mexican Accreditation Entity, A.C.",
+    accreditationNo: "Accreditation No.",
+    scopeLabel: "With the following scope:",
+    scopePlaceholder: "[SCOPE DESCRIPTION]",
+    footnote:
+      "Parameters marked with an asterisk (*) in the services section are offered without accreditation.",
+    labTest: "TESTING LABORATORY",
+    accredited: "ACCREDITED {code}",
+    qrLabel: "[EMA SCOPE QR CODE]",
+    qrHelp: "Scan the code to check our scope on the EMA website.",
+  },
   services: {
     paramCount: "{count} parameters",
   },

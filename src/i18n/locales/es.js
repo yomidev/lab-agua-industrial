@@ -62,6 +62,16 @@ export default {
       },
     },
   },
+  mission: {
+    label: "Misión y visión",
+    title: "Misión y visión",
+    missionTitle: "Misión",
+    missionText:
+      "Ofrecer servicios de excelencia en análisis de agua purificada, potable, residual y residual tratada a nuestros clientes, contando con un equipo de trabajo de alta calidad técnica y humana que utiliza tecnología de vanguardia para proveer resultados exactos en los tiempos acordados.",
+    visionTitle: "Visión",
+    visionText:
+      "Ser un laboratorio líder a nivel regional y nacional, reconocido por nuestra innovación, soluciones y servicios en materia de agua, así como por la calidad humana, técnica y profesional de nuestro personal y nuestra contribución a la comunidad.",
+  },
   services: {
     paramCount: "{count} parámetros",
     // ...

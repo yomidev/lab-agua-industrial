@@ -61,6 +61,16 @@ export default {
       },
     },
   },
+  mission: {
+    label: "Mission and vision",
+    title: "Mission and vision",
+    missionTitle: "Mission",
+    missionText:
+      "To offer excellent services in purified, drinking, residual and treated residual water analysis to our clients, counting on a highly qualified technical and human team that uses cutting-edge technology to provide accurate results in the agreed timeframes.",
+    visionTitle: "Vision",
+    visionText:
+      "To be a leading laboratory at a regional and national level, recognized for our innovation, solutions and water services, as well as for the human, technical and professional quality of our personnel and our contribution to the community.",
+  },
   services: {
     paramCount: "{count} parameters",
   },

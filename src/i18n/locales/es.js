@@ -28,6 +28,15 @@ export default {
     statFamilies: "Familias de ensayo",
     statAccred: "Acreditación EMA · {standard}",
   },
+  about: {
+    label: "Nosotros",
+    title: "Conócenos",
+    badge: "Equipo del laboratorio",
+    imageAlt:
+      "Equipo del Laboratorio de Investigación-Análisis de Aguas Industriales",
+    description:
+      "El Laboratorio de Investigación-Análisis de Aguas Industriales del Instituto Tecnológico de Aguascalientes es un laboratorio de ensayo que ofrece servicios de análisis de agua residual y residual tratada, agua purificada y agua potable, con fines de cumplimiento en la Normatividad Mexicana vigente. Además, brinda servicios de análisis de muestras de agua con fines de investigación y desarrollo tecnológico en diferentes áreas del conocimiento.",
+  },
   services: {
     paramCount: "{count} parámetros",
     // ...

@@ -28,6 +28,14 @@ export default {
     statFamilies: "test families",
     statAccred: "EMA accreditation · {standard}",
   },
+  about: {
+    label: "About Us",
+    title: "Get to know us",
+    badge: "Laboratory team",
+    imageAlt: "Team of the Industrial Water Research and Analysis Laboratory",
+    description:
+      "The Industrial Water Research and Analysis Laboratory of the Aguascalientes Institute of Technology is a testing laboratory that offers analysis services for residual and treated residual water, purified water, and drinking water, for compliance purposes with current Mexican Regulations. Additionally, it provides water sample analysis services for research and technological development purposes in different areas of knowledge.",
+  },
   services: {
     paramCount: "{count} parameters",
   },

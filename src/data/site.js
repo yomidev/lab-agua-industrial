@@ -1,5 +1,5 @@
 export const site = {
-  name: "Aguas Industriales · ITA",
+  name: "Lab. Aguas Industriales · ITA",
   fullName: "Laboratorio de Investigación-Análisis de Aguas Industriales",
   institution: "Instituto Tecnológico de Aguascalientes",
   address:

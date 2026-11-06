@@ -13,7 +13,7 @@ export default defineConfig({
       "@": fileURLToPath(new URL("./src", import.meta.url)),
     },
   },
-  base: "/lab-agua-industrial/",
+  base: "/",
   build: {
     outDir: "dist",
   },

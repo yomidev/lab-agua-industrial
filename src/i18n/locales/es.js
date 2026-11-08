@@ -27,6 +27,7 @@ export default {
     statParams: "Parámetros de análisis",
     statFamilies: "Familias de ensayo",
     statAccred: "Acreditación EMA · {standard}",
+    imageAlt: "Analista del laboratorio preparando una muestra con pipeta",
   },
   about: {
     label: "Nosotros",
@@ -130,5 +131,11 @@ export default {
     title: "Conoce a nuestro equipo",
     responsibilities: "Acreditaciones y encargos",
     closeModal: "Cerrar modal",
+  },
+  footer: {
+    contact: "Contacto",
+    navigation: "Navegación",
+    rights:
+      "© {year} {fullName} · {institution} · Acreditación EMA No. {accreditation}",
   },
 };

@@ -1,6 +1,6 @@
 <script setup>
 defineProps({
-  icon: { type: Object, required: true },
+  icon: { type: [Object, Function], required: true },
   label: { type: String, required: true },
   value: { type: String, required: true },
   href: { type: String, required: true },

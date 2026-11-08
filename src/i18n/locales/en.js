@@ -27,6 +27,7 @@ export default {
     statParams: "analysis parameters",
     statFamilies: "test families",
     statAccred: "EMA accreditation · {standard}",
+    imageAlt: "Laboratory analyst preparing a sample with a pipette",
   },
   about: {
     label: "About Us",
@@ -128,5 +129,11 @@ export default {
     title: "Meet our team",
     responsibilities: "Accreditations and responsibilities",
     closeModal: "Close modal",
+  },
+  footer: {
+    contact: "Contact",
+    navigation: "Navigation",
+    rights:
+      "© {year} {fullName} · {institution} · EMA Accreditation No. {accreditation}",
   },
 };

@@ -125,4 +125,10 @@ export default {
     phoneLabel: "TELÉFONO",
     emailLabel: "CORREO ELECTRÓNICO",
   },
+  team: {
+    label: "Equipo",
+    title: "Conoce a nuestro equipo",
+    responsibilities: "Acreditaciones y encargos",
+    closeModal: "Cerrar modal",
+  },
 };

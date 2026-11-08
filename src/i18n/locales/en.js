@@ -123,4 +123,10 @@ export default {
     phoneLabel: "PHONE",
     emailLabel: "EMAIL",
   },
+  team: {
+    label: "Team",
+    title: "Meet our team",
+    responsibilities: "Accreditations and responsibilities",
+    closeModal: "Close modal",
+  },
 };

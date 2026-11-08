@@ -7,6 +7,7 @@ import MissionVisionSection from "@/components/mission/MissionVisionSection.vue"
 import AccreditationSection from "@/components/accreditation/AccreditationSection.vue";
 import ServicesSection from "@/components/services/ServicesSection.vue";
 import QuoteSection from "@/components/quote/QuoteSection.vue";
+import TeamSection from "@/components/team/TeamSection.vue";
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import QuoteSection from "@/components/quote/QuoteSection.vue";
     <AccreditationSection />
     <ServicesSection />
     <QuoteSection />
+    <TeamSection />
   </main>
 </template>
 

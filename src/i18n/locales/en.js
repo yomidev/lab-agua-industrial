@@ -87,6 +87,32 @@ export default {
     qrHelp: "Scan the code to check our scope on the EMA website.",
   },
   services: {
-    paramCount: "{count} parameters",
+    label: "Services",
+    title: "Services",
+    description:
+      "At the Industrial Water Research and Analysis Laboratory of the Aguascalientes Institute of Technology, we offer water analysis services for:",
+    subtitle: "With the following available tests",
+    parametersLabel: "PARAMETERS",
+    searchPlaceholder: "Search parameter: lead, pH, coliforms...",
+    accredited: "Accredited",
+    notAccredited: "Not accredited",
+    noResults: "No parameters found matching your search.",
+    footnote:
+      "Parameters marked with an asterisk (*) are offered without accreditation.",
+    closeModal: "Close modal",
+    // Títulos de las familias
+    families: {
+      fisicoquimicos: "Physicochemical analysis",
+      metales: "Metal determination",
+      otros: "Other parameters",
+      microbiologicos: "Microbiological analysis",
+    },
+    // Tipos de agua
+    waterTypes: [
+      "Residual and treated residual water",
+      "Natural waters",
+      "Drinking and purified water",
+      "Process waters",
+    ],
   },
 };

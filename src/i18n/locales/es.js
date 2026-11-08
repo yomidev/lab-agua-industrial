@@ -89,7 +89,32 @@ export default {
       "Escanee el código para consultar nuestro alcance en la página de la EMA.",
   },
   services: {
-    paramCount: "{count} parámetros",
-    // ...
+    label: "Servicios",
+    title: "Servicios",
+    description:
+      "En el Laboratorio de Investigación-Análisis de Aguas Industriales del Instituto Tecnológico de Aguascalientes ofrecemos servicios de análisis de agua para:",
+    subtitle: "Contando con los siguientes ensayos",
+    parametersLabel: "PARÁMETROS",
+    searchPlaceholder: "Buscar parámetro: plomo, pH, coliformes...",
+    accredited: "Acreditado",
+    notAccredited: "No acreditado",
+    noResults: "No se encontraron parámetros que coincidan con tu búsqueda.",
+    footnote:
+      "Los parámetros marcados con asterisco (*) se ofrecen sin acreditación.",
+    closeModal: "Cerrar modal",
+    // Títulos de las familias
+    families: {
+      fisicoquimicos: "Análisis fisicoquímicos",
+      metales: "Determinación de metales",
+      otros: "Otros parámetros",
+      microbiologicos: "Análisis microbiológicos",
+    },
+    // Tipos de agua
+    waterTypes: [
+      "Agua residual y residual tratada",
+      "Aguas naturales",
+      "Agua potable y purificada",
+      "Aguas de proceso",
+    ],
   },
 };

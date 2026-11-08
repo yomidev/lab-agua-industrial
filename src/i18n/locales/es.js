@@ -138,4 +138,12 @@ export default {
     rights:
       "© {year} {fullName} · {institution} · Acreditación EMA No. {accreditation}",
   },
+  videos: {
+    heading: "Conoce el laboratorio",
+    play: "Reproducir video: {title}",
+    items: {
+      IzDSa6KeyNY: "LANALIMSA",
+      "9YS-cxc2gNM": "El agua que bebemos: ciencia, tecnología y salud",
+    },
+  },
 };

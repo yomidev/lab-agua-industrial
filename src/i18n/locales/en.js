@@ -136,4 +136,12 @@ export default {
     rights:
       "© {year} {fullName} · {institution} · EMA Accreditation No. {accreditation}",
   },
+  videos: {
+    heading: "Get to know the laboratory",
+    play: "Play video: {title}",
+    items: {
+      IzDSa6KeyNY: "LANALIMSA",
+      "9YS-cxc2gNM": "The Water We Drink: Science, Technology and Health",
+    },
+  },
 };

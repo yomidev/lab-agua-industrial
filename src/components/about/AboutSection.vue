@@ -1,6 +1,7 @@
 <script setup>
 import { MapPin } from "lucide-vue-next";
 import SectionHeader from "@/components/ui/SectionHeader.vue";
+import VideoGallery from "./VideoGallery.vue";
 import teamImg from "@/assets/images/about/team-sign.jpg";
 import { site } from "@/data/site";
 import { useI18n } from "vue-i18n";
@@ -54,6 +55,7 @@ const { t } = useI18n();
           </div>
         </div>
       </div>
+      <VideoGallery />
     </div>
   </section>
 </template>

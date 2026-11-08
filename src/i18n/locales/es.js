@@ -117,4 +117,12 @@ export default {
       "Aguas de proceso",
     ],
   },
+  quote: {
+    title: "Cotizaciones",
+    lead: "Para servicios de análisis no listados, contáctenos; evaluaremos su solicitud conforme a sus necesidades.",
+    description:
+      "Para solicitar una cotización personalizada, favor de comunicarse a la oficina de atención a clientes al teléfono o correo electrónico. Además del análisis de agua, ofrecemos asesoría y desarrollo de proyectos ambientales.",
+    phoneLabel: "TELÉFONO",
+    emailLabel: "CORREO ELECTRÓNICO",
+  },
 };

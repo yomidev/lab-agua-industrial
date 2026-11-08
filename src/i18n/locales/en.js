@@ -115,4 +115,12 @@ export default {
       "Process waters",
     ],
   },
+  quote: {
+    title: "Quotes",
+    lead: "For unlisted analysis services, contact us; we will evaluate your request according to your needs.",
+    description:
+      "To request a customized quote, please contact the customer service office by phone or email. In addition to water analysis, we offer consulting and environmental project development.",
+    phoneLabel: "PHONE",
+    emailLabel: "EMAIL",
+  },
 };

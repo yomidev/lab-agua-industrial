@@ -105,7 +105,15 @@ export const team = [
     role: "Integrante del Equipo",
     title: "Laboratorio de Aguas Industriales",
     photo: zaira,
-    responsibilities: ["Información pendiente por definir."],
+    responsibilities: [
+      "Determinación de Sólidos Suspendidos Totales (NMX-AA-034-SCFI-2015)",
+      "Determinación de Grasas y Aceites (NMX-AA-005-SCFI-2013)",
+      "Determinación de Alcalinidad (NMX-AA-036-SCFI-2001)",
+      "Determinación de Cloruros Totales (NMX-AA-073-SCFI-2001)",
+      "Determinación de Dureza Total (NMX-AA-072-SCFI-2001)",
+      "Determinación de Cromo Hexavalente (NMX-AA-044-SCFI-2014)",
+      "Determinación de Sólidos Sedimentables (NMX-AA-004-SCFI-2013)",
+    ],
   },
   {
     id: "monserrat",

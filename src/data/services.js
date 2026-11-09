@@ -69,7 +69,7 @@ export const families = [
       {
         name: "Calcio total",
         method: "EPA 200.7* / NMX-AA-051-SCFI-2016",
-        accredited: false,
+        accredited: true,
       },
       {
         name: "Cobre total",
@@ -84,12 +84,12 @@ export const families = [
       {
         name: "Hierro total",
         method: "EPA 200.7* / NMX-AA-051-SCFI-2016",
-        accredited: false,
+        accredited: true,
       },
       {
         name: "Magnesio total",
         method: "EPA 200.7* / NMX-AA-051-SCFI-2016",
-        accredited: false,
+        accredited: true,
       },
       {
         name: "Níquel total",
@@ -104,12 +104,12 @@ export const families = [
       {
         name: "Potasio total",
         method: "EPA 200.7* / NMX-AA-051-SCFI-2016",
-        accredited: false,
+        accredited: true,
       },
       {
         name: "Sodio total",
         method: "EPA 200.7* / NMX-AA-051-SCFI-2016",
-        accredited: false,
+        accredited: true,
       },
       {
         name: "Zinc total",

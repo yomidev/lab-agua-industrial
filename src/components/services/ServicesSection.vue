@@ -5,6 +5,7 @@ import { ArrowRight } from "lucide-vue-next";
 import SectionHeader from "@/components/ui/SectionHeader.vue";
 import ServiceModal from "./ServiceModal.vue";
 import { families } from "@/data/services";
+import qrTriptico from "@/assets/images/services/qr-code.png";
 
 const { t, tm } = useI18n();
 
@@ -105,6 +106,39 @@ const closeModal = () => {
               </div>
             </div>
           </button>
+        </div>
+
+        <div
+          class="mt-6 flex flex-col items-center justify-between gap-8 overflow-hidden rounded-[32px] bg-deep p-8 text-white sm:flex-row lg:p-12 shadow-lg"
+        >
+          <div class="flex flex-col gap-3">
+            <h3
+              class="font-display text-[clamp(22px,3vw,32px)] font-bold tracking-tight"
+            >
+              {{ t("services.brochureTitle") }}
+            </h3>
+            <p class="max-w-md text-[15px] leading-relaxed text-[#CFE3F3]">
+              {{ t("services.brochureText") }}
+            </p>
+          </div>
+
+          <div class="flex flex-col items-center gap-2">
+            <!-- Contenedor blanco para que el QR resalte y sea escaneable -->
+            <div
+              class="rounded-2xl bg-white shadow-md transition-transform hover:scale-105"
+            >
+              <img
+                :src="qrTriptico"
+                alt="Código QR del tríptico de servicios"
+                class="h-60 w-60 object-contain [image-rendering:pixelated]"
+              />
+            </div>
+            <span
+              class="font-mono text-[10px] uppercase tracking-wider text-[#7A9BB8]"
+            >
+              {{ t("services.brochureScan") }}
+            </span>
+          </div>
         </div>
       </div>
     </section>

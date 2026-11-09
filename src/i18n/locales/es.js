@@ -103,6 +103,10 @@ export default {
     footnote:
       "Los parámetros marcados con asterisco (*) se ofrecen sin acreditación.",
     closeModal: "Cerrar modal",
+    brochureTitle: "¿Buscas más información?",
+    brochureText:
+      "Descarga nuestro tríptico digital completo para conocer a detalle todos los servicios, métodos y normativas que ofrecemos en el laboratorio.",
+    brochureScan: "Escanea para descargar",
     // Títulos de las familias
     families: {
       fisicoquimicos: "Análisis fisicoquímicos",

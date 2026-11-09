@@ -101,6 +101,10 @@ export default {
     footnote:
       "Parameters marked with an asterisk (*) are offered without accreditation.",
     closeModal: "Close modal",
+    brochureTitle: "Looking for more information?",
+    brochureText:
+      "Download our complete digital brochure to learn in detail about all the services, methods, and regulations we offer in the laboratory.",
+    brochureScan: "Scan to download",
     // Títulos de las familias
     families: {
       fisicoquimicos: "Physicochemical analysis",

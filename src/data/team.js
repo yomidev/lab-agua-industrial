@@ -5,9 +5,70 @@ import zaira from "@/assets/images/team/zaira.png";
 import monserrat from "@/assets/images/team/montserrat.png";
 import fernanda from "@/assets/images/team/fernanda.png";
 import shannon from "@/assets/images/team/shannon.png";
+import virginia from "@/assets/images/team/virginia.jpg";
+import estrella from "@/assets/images/team/estrella.jpg";
+import victoria from "@/assets/images/team/victoria.jpg";
+import gabriela from "@/assets/images/team/gabriela.jpg";
+
 import { Monitor } from "lucide-vue-next";
 
 export const team = [
+  {
+    id: "virginia",
+    name: "Virginia Hernández Montoya",
+    role: "Jefa de Laboratorio e Investigadora",
+    title: "Doctora en Ciencias Químicas",
+    photo: virginia,
+    responsibilities: [
+      "Jefa del laboratorio de investigación y profesora investigadora en el ITA (desde 2011).",
+      "Doctora en Ciencias Químicas por la Benemérita Universidad Autónoma de Puebla (BUAP).",
+      "Ingeniera Química con especialidad en Ambiental.",
+      "Directora de proyectos de investigación (CONACYT y TecNM) enfocados en la calidad del agua, remoción de arsénico, fluoruros y colorantes.",
+      "Asesora ambiental especializada en tratamiento de agua y ahorro de energía.",
+    ],
+  },
+  {
+    id: "estrella",
+    name: "María Estrella Martínez Floriano",
+    role: "Jefa Técnica y Técnico Analista",
+    title: "M.C. en Ingeniería Ambiental",
+    photo: estrella,
+    responsibilities: [
+      "Jefa Técnica y Técnico Analista en el Laboratorio de Aguas Industriales del ITA (desde 2021).",
+      "Experta Técnica del padrón de evaluadores de la EMA en la rama de agua y residuos.",
+      "Implementación y validación de métodos para metales (Al, As, Cd, Cr, Cu, Fe, Mg, Ni, Pb, K, Na, Zn y Hg) por Absorción Atómica, ICP-OES y Vapor Frío.",
+      "Supervisión de mediciones de campo, actividades de muestreo y elaboración/revisión de informes de resultados.",
+      "Amplia trayectoria previa en la industria como Supervisora de Cromatografía (GC-MS, HPLC) y Analista Signatario.",
+    ],
+  },
+  {
+    id: "ana",
+    name: "Ana Victoria Hernández García",
+    role: "Jefe de Calidad y Técnico Analista",
+    title: "Lic. en Ciencias Ambientales",
+    photo: victoria,
+    responsibilities: [
+      "Jefa de Calidad y Signatario Autorizado en el Laboratorio de Aguas Industriales del ITA.",
+      "Gestión del Sistema de Gestión de Calidad (SGC) bajo la norma NMX-EC-17025-IMNC-2018 y planificación de auditorías internas.",
+      "Signatario autorizado para parámetros fisicoquímicos: DBO5, Sólidos, Grasas y Aceites, pH, Conductividad y Cromo Hexavalente.",
+      "Amplia experiencia previa en el sector industrial como Analista Signatario en Microbiología (Coliformes, E. coli, Salmonella y Huevos de Helminto).",
+      "Técnico Docente y encargada de la revisión de procedimientos técnicos, administrativos e informes de ensayo.",
+    ],
+  },
+  {
+    id: "gabriela",
+    name: "Gabriela Castillo Ibarra",
+    role: "Jefe de Atención a Clientes y Técnico Analista",
+    title: "Ingeniera Química",
+    photo: gabriela,
+    responsibilities: [
+      "Jefa de la oficina de atención a clientes del Laboratorio de Aguas Industriales del ITA (desde 2023).",
+      "Encargada del seguimiento a solicitudes de servicio, registro de ensayos y verificación de la entrega de resultados en tiempo y forma.",
+      "Técnico analista en la implementación y verificación de métodos por volumetría (Cianuros, alcalinidad, dureza, cloruros) y gravimetría (Grasas y aceites, Sólidos Suspendidos Totales).",
+      "Amplia experiencia previa como Analista Signatario de fisicoquímicos en la industria (Microlab Industrial).",
+      "Apoyo en el desarrollo de prácticas de laboratorio para estudiantes de Ingeniería Química.",
+    ],
+  },
   {
     id: "cortes",
     name: "Alberto José Cortés González",
